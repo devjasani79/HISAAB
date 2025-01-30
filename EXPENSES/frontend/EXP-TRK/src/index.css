@@ -1,0 +1,57 @@
+@import "tailwindcss";
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Global Styles */
+html, body {
+  font-family: 'Open Sans', sans-serif; /* Default font */
+    background-color: rgb(15, 23, 42); 
+    /* Almost Black */
+    color: rgb(229, 231, 235); /* Light Gray */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Cormorant', serif; 
+  }
+  
+  
+  
+  /* Smooth transition on scroll */
+  .scroll-fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .scroll-fade.visible {
+    opacity: 1;
+  }
+  /* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4f46e5; /* Electric blue color */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6366f1;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4f46e5 #1a1a1a;
+}

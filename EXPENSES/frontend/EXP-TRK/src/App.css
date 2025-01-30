@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes progress-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  
+  .animate-progress {
+    animation: progress-pulse 2s ease-in-out infinite;
+  }
