@@ -7,25 +7,25 @@ const Reviews = () => {
       name: "Manav Dave",
       role: "Stock Market Broker",
       text: "This platform transformed how I manage business finances. The budgeting tools are exceptional!",
-      avatar: "public/manav.jpeg"
+      avatar: "/manav.jpeg"
     },
     {
       name: "Chinmay Mahashabde",
       role: "Financial Analyst",
       text: "The most intuitive expense tracker I've used. Real-time notifications are a game-changer.",
-      avatar: "public/chinmay.jpeg"
+      avatar: "/chinmay.jpeg"
     },
     {
       name: "Varad Nimbalker",
       role: "DOP",
       text: "Simplified my financial management completely. Love the clean interface!",
-      avatar: "public/varad.jpeg"
+      avatar: "/varad.jpeg"
     },
     {
       name: "Varun Sagle",
       role: "Startup Founder",
       text: "Essential tool for any entrepreneur. The reporting features saved us countless hours.",
-      avatar: "public/varun.jpeg"
+      avatar: "/varun.jpeg"
     }
   ];
 
