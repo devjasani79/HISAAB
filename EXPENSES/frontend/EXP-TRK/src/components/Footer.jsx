@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contribute</h3>
             <a
-              href="https://github.com/devjasani79"
+              href="https://github.com/devjasani79/EXPENSES.github.io"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 hover:text-blue-400 transition"
