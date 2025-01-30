@@ -28,7 +28,7 @@ const Navbar = () => {
   <div className="container mx-auto px-6 py-4 flex justify-between items-center">
     {/* Logo */}
     <div className="text-2xl font-semibold flex items-center">
-    <a href="#HeroSection"><img src="/public/logo.png" alt="Logo" className="h-8 mr-2" /></a> 
+    <a href="#HeroSection"><img src="/logo.png" alt="Logo" className="h-8 mr-2" /></a> 
       <span>EXP-TRK</span>
     </div>
 
