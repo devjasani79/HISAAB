@@ -32,7 +32,7 @@ const Content = () => {
               : 'opacity-0 -translate-x-[100px]'
           }`}>
             <img 
-              src="public/Content.JPG" 
+              src="/Content.JPG" 
               alt="Financial Management"
               className="w-full h-[400px] md:h-[500px] object-cover rounded-lg shadow-xl"
             />
