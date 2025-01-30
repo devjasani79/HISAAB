@@ -8,7 +8,7 @@ A modern landing page for ExpenseTracker - Your ultimate financial management so
 ## 🚀 Live Demo
 
 Experience the live version:  
-https://exp-trk-github-io.vercel.app/
+https://expenses-dev.vercel.app/
 
 ## ✨ Key Features
 
